@@ -1,36 +1,36 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    --bs-body-line-heigth: 1.4;
-    --bs-body-bg: var(--bs-gray-100);
+    font-family: Arial, Helvetica, sans-serif;  /* Estableciendo la fuente del cuerpo */
+    --bs-body-line-heigth: 1.4;  /* Altura de línea para el cuerpo */
+    --bs-body-bg: var(--bs-gray-100);  /* Color de fondo del cuerpo */
 }
 
 #main {
-    margin: 0 auto;
-    padding: 10px;
+    margin: 0 auto;  /* Centrando el contenedor principal */
+    padding: 10px;  /* Añadiendo padding al contenedor principal */
 }
 
 #marco {
-    border-radius: 5px;
-    border-style: solid;
-    border-color: gray;
-    background-color: cornflowerblue;
-    width: 80%;
-    padding: 5px;
+    border-radius: 5px;  /* Bordes redondeados para el contenedor del formulario */
+    border-style: solid;  /* Estilo de borde sólido */
+    border-color: gray;  /* Color del borde */
+    background-color: cornflowerblue;  /* Color de fondo del contenedor */
+    width: 80%;  /* Ancho del contenedor */
+    padding: 5px;  /* Añadiendo padding al contenedor */
 }
 
 .table {
-    --bs-table-color: var(--bs-gray-600);
-    --bs-table-bg: var(--bs-gray-100);
-    --bs-table-border-color: transparent;
+    --bs-table-color: var(--bs-gray-600);  /* Color del texto de la tabla */
+    --bs-table-bg: var(--bs-gray-100);  /* Color de fondo de la tabla */
+    --bs-table-border-color: transparent;  /* Color del borde de la tabla */
 }
 
 .tarjeta {
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 5px;
+    padding: 10px;  /* Añadiendo padding a las tarjetas */
+    font-family: Arial, Helvetica, sans-serif;  /* Estableciendo la fuente para las tarjetas */
+    font-size: 5px;  /* Estableciendo el tamaño de fuente para las tarjetas */
 }
 
 label {
-    font-weight: bold;
-    padding: 5px;
+    font-weight: bold;  /* Estableciendo el texto de las etiquetas en negrita */
+    padding: 5px;  /* Añadiendo padding a las etiquetas */
 }
